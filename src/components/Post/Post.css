@@ -1,0 +1,121 @@
+.Post{
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#profileimg{
+    border-radius: 100px;
+}
+
+#profiletitle{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#profileName{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+#shareinfo{
+    text-align: right !important;
+}
+
+.childImgstyling{
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    padding:0px;
+}
+
+.commentSection{
+    padding-top:20px;
+    padding-bottom: 0px;
+}
+
+.comment p{
+    margin-bottom:0px;
+}
+
+.comment h6{
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.commentimgstyling{
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+.commentActivity a{
+    margin-right: 10px;
+    text-transform: capitalize;
+    color: #50b5ff;
+    text-decoration: none;
+}
+
+.addcomment{
+    border:1px solid #F1F1F1 ;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.inputicons{
+    display:inline-block;
+  }
+
+#icon{
+    width: 15px;
+    height: 15px;
+    padding-right: 3px;
+}
+
+.Post p a{
+    color: black !important;
+}
+
+.Post  a:hover{
+    color: #74BBFF !important;
+}
+
+.dropdownwidth{
+    width: 215px;
+}
+
+
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#3F414D;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: white !important;
+    padding: 0px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover{color: white;}
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color:#74BBFF;}
+
+  .dropbtn:hover{
+      color: #74BBFF;
+  }
